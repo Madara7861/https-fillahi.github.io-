@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home - GitHub Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My GitHub-Based Website</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="ethics.html">Ethics</a>
+    <a href="about.html">About</a>
+    <a href="references.html">References</a>
+  </nav>
+  
+  <div class="container">    
+    <div class="slider-container">
+      <div class="slider">
+          <div class="slide">
+              <img src="george-mason1.jpg" alt="Geroge Meson 1" >
+          </div>
+          <div class="slide">
+              <img src="george-mason2.jpeg" alt="Geroge Meson 2">
+          </div>
+          <div class="slide">
+              <img src="george-mason3.jpg" alt="Geroge Meson 3">
+          </div>
+      </div>
+      <button class="prev-button" onclick="prevSlide()">&#10094;</button>
+      <button class="next-button" onclick="nextSlide()">&#10095;</button>
+      <div class="dots">
+          <span class="dot active" onclick="goToSlide(0)"></span>
+          <span class="dot" onclick="goToSlide(1)"></span>
+          <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </div>
+  <script src="slider.js"></script>    
+    <main>
+            <h2>Home</h2>
+            <p>George Mason University, home of the patriots, is a place filled with success, opportunities, and possibilities. 
+              George Mason is known for its vast diversity, students from across the globe travel to fulfill their respective majors 
+              here. Mason offers a wide variety of majors from business, information technology, medicine, and several more. Joining
+               Mason you will learn that it is a loving community where we support each other in shaping our futures.
+              </p> 
+          
+    <section>
+        <h2>About Me</h2>
+        <p>Hello my name is Fahad Illahi, I am a second-semester freshman majoring in information technology at George Mason University. My hobbies include watching films, listening to music, and painting. 
+          I wanted to become apart of George Mason because of the technical opportunities and the diversity. I love the supportive and optimistic community we have here.</p>
+        <p></p>
+    </section>
+    <section>
+        <h2>My Projects</h2>
+        <p>I took IT 104 with professor Daniel Garrison who taught me a great amount of what I have learned so far. Through this course I gained experience with how to develop a website with HTML through Visual Studio Code. 
+          I made my first website based on my research project on the impact of virtual reality on health care businesses. It was a very interesting topic to research, it expanded my knowledge about different medical methods. 
+          For instance, virtual reality could be used for surgical simulations to teach future surgeons how to perform surgery, which comes to show how much potential virtual reality will have as progress into the future. For more information you can visit my research project website in the link below. 
+          <br/><a href= "https://mason.gmu.edu/~fillahi/titlepage.html">The Impact of Virtual Reality on Healthcare Businesses</a></p>
+    </section>
+    
+    <section>
+        <h2>Contact Me</h2>
+        <p>My door is always open to anyone, if you have anything you want to ask or just want to say hello, please do so through my email fillahi@gmu.edu
+        </p>
+    </section>
+</main>
+</div>
+    
+  <footer>
+    GitHub Website Project | Created for Assignment 4
+  </footer>
+</body>
+</html>
